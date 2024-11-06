@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(249, 237, 237);
+}
+
+.counter-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: white;
+    height: 7rem;
+    width: 15rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+button {
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    border: none;
+    background-color: rgb(244, 186, 186);
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.count {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
